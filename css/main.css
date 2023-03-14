@@ -1,0 +1,46 @@
+html{
+    font-size: 62.5%;
+}
+body{
+    font: 1.6rem "Roboto", sans-serif;
+    margin: 0;
+    line-height: 1.6;
+    letter-spacing: .1rem;
+}
+h1,h2,h3,h4,h5,h6,
+p,ul,ol,figure,footer{
+    margin: 0;
+    padding: 0;
+    font-weight: 100;
+}
+.inner-form form input:focus{
+    outline: 0;
+    box-shadow: 0 0 2rem rgb(252, 96, 228);
+}
+.inner-form form input[type="submit"]:focus{
+    box-shadow: 0;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+header h1{
+    text-align: center;
+}
+h2{
+    text-align: center;
+}
+section {
+    text-align: center;
+}
+section button{
+    position: inherit;
+    width: 10%;
+    background-color: blue;
+    border-radius: .6rem;
+    
+}
+footer{
+   text-align: center; 
+}
